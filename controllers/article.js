@@ -38,7 +38,7 @@ class articleController {
         ctx.response.status = 200
         ctx.body = {
           code:200,
-          msg:'查询成功',
+          message:'查询成功',
           data
         }
       }catch(err){

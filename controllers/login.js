@@ -12,7 +12,6 @@ class loginController {
       }
     }else{
       let createUser = await loginModel.createLogin(req)
-      console.log(createUser,'--createUsercreateUser-')
      
       ctx.response.status = 200
       if(createUser){

@@ -27,6 +27,7 @@ module.exports = (sequelize,dataTypes) => {
       field:'email'
     }
   },{
-    timestamps:false
+    timestamps:false,
+    freezeTableName: true
   })
 }

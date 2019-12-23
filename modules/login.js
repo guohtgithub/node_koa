@@ -11,7 +11,6 @@ Login.sync({force:false})
 
 class LoginModel {
   static async createLogin(data){
-    console.log(data,'--data')
     let users =  await Login.create({
       username:data.username,
       password:data.password,
